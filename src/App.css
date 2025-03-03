@@ -1,0 +1,158 @@
+                              /* this is login css*/
+.login{
+height: 100vh;
+display: flex;
+justify-content: center;
+background-image: url('https://wallpapers.com/images/hd/beautiful-flower-1920-x-1286-background-78twv7dxmj1drv4u.jpg');
+background-repeat: no-repeat;
+background-position: fixed;
+background-size: cover;
+text-align: center;
+
+}
+
+
+  .head{
+    display: flex;
+    justify-content:center;
+    background-color:black;
+  }
+  
+
+
+.container {
+ 
+  align-items: center;
+  padding-top: 5%;
+  margin-right: 25%;
+}
+
+
+                                /*signup css*/
+.signup{
+  height:100vh;
+  padding-top:5%;
+  display: flex;
+  justify-content: center;
+ 
+background-image: url('https://tse3.mm.bing.net/th?id=OIP.dFHcTrbcYQpuue-X4inDPwHaE8&pid=Api&P=0&h=220');
+background-repeat: no-repeat;
+background-position: fixed;
+background-size:cover;
+}
+
+                            /*side-nav css*/
+
+.dashboard-container {
+  padding: 10px;
+}
+
+.sidebar-container {
+  background-color: #5ca7f1;
+  height:auto;
+
+}
+
+
+
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.view-details-btn {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.d-flex {
+  justify-content: space-evenly;
+}
+
+
+
+/* Dashboard CSS */
+.flower-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: space-between;
+}
+
+.flower-card {
+  width: 18rem; /* Same width for all cards */
+  height: 100%; /* Ensure equal height */
+  display: flex;
+  margin:2%;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.flower-card .card-img-top {
+  object-fit: cover;
+  height: 200px; /* Consistent image height */
+}
+
+.flower-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px; /* Maintain equal height */
+}
+
+.flower-card h5, .flower-card p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.flower-card .btn {
+  margin-top: auto;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: white; /* Button text color */
+}
+
+.card-body a:hover {
+  text-decoration: underline; /* Hover effect */
+}
+
+@media (max-width: 768px) {
+  .flower-cards-container {
+    justify-content: center;
+  }
+}
+
+
+
+
